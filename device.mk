@@ -21,7 +21,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, vendor/xiaomi/raphael/raphael-vendor.mk)
 
 # MiuiCamera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+# $(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
@@ -302,8 +302,8 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
 # KProfiles
-PRODUCT_PACKAGES += \
-    KProfiles
+# PRODUCT_PACKAGES += \
+#     KProfiles
 
 # Lights
 PRODUCT_PACKAGES += \
